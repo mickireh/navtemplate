@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./nav.js"></script>
+
+    <link rel="stylesheet" href="./nav.css">
+
+    <title>Nav Template</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li tabindex="0"><a tabindex="-1" href="" title="Home">Home</a></li>
+            <li tabindex="0" ><a tabindex="-1" href="" title="Page1">Page1</a></li>
+            <li tabindex="0" class="more"><a tabindex="-1" href="" title="Page2">Page2</a>
+                <ul>
+                    <li tabindex="0"><a tabindex="-1" href="" title="Page2.1">Page2.1</a>
+                        <ul>
+                            <li tabindex="0"><a tabindex="-1" href="" title="Page2.1.1">Page2.1.1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="navright">
+            <li tabindex="0"><a tabindex="-1" href="" title="Page3">Page3</a></li>
+            <li tabindex="0"><a tabindex="-1" href="" title="Page4">Page4</a></li>
+            <li tabindex="0"><a tabindex="-1" href="" title="Page5">Page5</a></li>
+            <li tabindex="0"><a tabindex="-1" href="" title="Page6">Page6</a></li>
+        </ul>
+    </nav>
+    
+    <div id="menu-bar">
+        <div id="menu">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="navi">
+            <li><a href="" title="Home">Home</a></li>
+            <li><a href="" title="Page1">Page1</a></li>
+            <li><a href="" title="Page2">Page2</a></li>
+            <li><a href="" title="Page3">Page3</a></li>
+            <li><a href="" title="Page4">Page4</a></li>
+            <li><a href="" title="Page5">Page5</a></li>
+            <li><a href="" title="Page6">Page6</a></li>
+        </ul>
+    </div>
+</body>
+</html>
