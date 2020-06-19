@@ -17,7 +17,6 @@
                 $(this).children()[0].click();
                 // nein, bugged
             };
-           
         });
 
         // focus 2.ebene 
@@ -26,8 +25,8 @@
             $(this).parent().css('opacity','1');
             // $(this).parent().css('margin-top','0.5em');
             $(this).parent().css('margin-left','0');
-
         });
+        
         // on blur ausgangszustand
         // sache hier ist, dass .css() inline style schreibt, also onblur dieses wieder entfernen '' um auf stylesheet zurückzusetzen
         $('nav>ul>li>ul').on('blur','li',function(e){
